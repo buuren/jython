@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jenkins
+Build-Jdk: 1.6.0_29
+Implementation-Vendor-Id: oracle.ucm.ridc
+Hudson-Build-Number: 4
+Hudson-Project: oracle.ucm.ridc.suite-11.1.1.8.0-IdcRelease
+Hudson-Version: 1.424.2
+Implementation-Label: 11.1.1.8.0.7907
+Implementation-Title: oracle.ucm.ridc
+Implementation-Vendor: Oracle
+Implementation-Version: 11.1.1
+Jenkins-Build-Number: 4
+Jenkins-Project: oracle.ucm.ridc.suite-11.1.1.8.0-IdcRelease
+Jenkins-Version: 1.424.2
+Specification-Title: oracle.ucm.ridc
+Specification-Vendor: Oracle
+Specification-Version: 11.1.1
+

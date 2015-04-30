@@ -1,0 +1,67 @@
+{
+
+	"sourceServer": {
+		"hostname": "ucmserver.net:80",
+		"instance": "idc",
+		"username": "sysadmin",
+		"password": "idc",
+		"pathToSysComps": "/oracle/ucm/"
+	}
+	
+	"targetServer": {
+		"hostname": "ucmserver.net:80",
+		"instance": "idc",
+		"username": "sysadmin",
+		"password": "idc",
+		"pathToSysComps": "/oracle/ucm/"
+	}
+	
+	"CMUOperations": {
+
+		"description": "Enter 1 to do action. Empty - do nothing.			
+		doCMUExport: Run CMU Operations.
+		doCMUClone: full copy of CMU data from source to target.
+		doCMUCheck: compare difference between target and source.
+		doCMUBackup: create bundle with full CMU data on target server.
+		bundleStoreLocation: location  to store bundle. Default value(empty): store in the same folder, where JAR file is.",
+	
+		"doCMUExport": "1",
+		"doCMUCheck": "1",
+		"doCMUClone": "",
+		"doCMUBackup": "",
+		"bundleStoreLocation": "",
+
+		"Template settings": {
+			
+			"Continue on error": "1",
+			"Add dependencies": ""
+
+		},
+
+		"Components": {
+				"List": [""],
+				"Continue on error": "",
+				"Add dependencies": ""
+		},
+
+
+
+	}
+
+	"ArchiverOperations" {
+
+		"doArchiverExport": "",
+
+		"WebAssets": {
+			"List": [""],
+			"Tables": [""]
+		}
+
+	},
+
+	"GeneralOperations" {
+
+		"doGeneralOperations": "",
+	}
+	
+}
