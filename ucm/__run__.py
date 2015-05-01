@@ -30,7 +30,6 @@ else:
 
 from src.main.jython.CMUConfigParser import CMUConfigParser
 
-
 doCMUExport = CMUConfigParser(pathToJSON).returnObject("CMUOperations", "doCMUExport")
 doArchiverExport = CMUConfigParser(pathToJSON).returnObject("ArchiverOperations", "doArchiverExport")
 doGeneralOperations = CMUConfigParser(pathToJSON).returnObject("GeneralOperations", "doGeneralOperations")
