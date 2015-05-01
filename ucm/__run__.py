@@ -6,10 +6,6 @@ Created on 09.10.2014
 '''
 import os, sys, datetime
 
-#Add jars to CLASSPATH
-#for file_name in os.listdir("Libs"):
-#	sys.path.append('Libs/' + file_name)
-
 #Local libs
 from src.main.jython.CMULogger import log4j
 
