@@ -2,7 +2,7 @@
 # coding=utf-8
 '''
 Created on 09.10.2014
-@author: p998sqb
+@author: 
 '''
 
 #local classes
